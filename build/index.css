@@ -1,0 +1,26 @@
+html,
+body,
+#wrapper,
+#animator {
+  height: 100%;
+  width: 100%;
+}
+#animator {
+  position: relative;
+  margin: 0 auto;
+}
+#animator a {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  white-space: nowrap;
+  left: 0px;
+  font-family: Microsoft YaHei;
+  color: #fff;
+  background-color: #f60;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: default;
+}
